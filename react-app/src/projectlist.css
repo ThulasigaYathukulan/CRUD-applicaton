@@ -1,0 +1,21 @@
+.form-style-6{
+	
+	padding: 50px 50px;
+	box-shadow: 10px 10px ;
+	margin: 80px auto;
+	position: absolute;
+  left: 20%;
+	background:white;
+	border-radius: 50px;
+	border: 2px solid #08394d;
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+  }
+  .btn-pad1{
+	background-color:  rgb(6, 61, 57);
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 16px;
+	cursor: pointer;
+  }

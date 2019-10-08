@@ -1,0 +1,77 @@
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(29, 49, 45);
+    overflow-x: hidden;
+    padding-top: 30px;
+    margin-top: 6.5%
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #dfd5d5;
+    display: block;
+    margin-top: 20%
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .dropbtn {
+    background-color: rgb(29, 49, 45);
+    color: white;
+    padding: 16px;
+    font-size: 1px;
+    border: none;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+      
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7d8584;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  
+  .dropdown:hover .dropdown-content {display: block;}
+ 
